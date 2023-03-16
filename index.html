@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Media Query for Screen</title>
+    <title>GGS Challenge 2</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome to the store!</h1>
-      <p>
-        When you change the screen size, the product cards will change layouts
-        so you can view them comfortably no matter how small the screen gets!
-      </p>
+    <header class="header">
+      <h1>Gerardo Garcia</h1>
+      <nav>
+          <ul>
+              <li>
+                  <a href="#search-engine-optimization">About Me</a>
+              </li>
+              <li>
+                  <a href="#online-reputation-management">Work</a>
+              </li>
+              <li>
+                  <a href="#social-media-marketing">Contact Me</a>
+              </li>
+              <li>
+                <a href="#social-media-marketing">Resume</a>
+            </li>
+          </ul>
+      </nav>
     </header>
-
-    <main>
-      <section class="card">
-        <header>Camera</header>
-        <img src="./assets/images/camera.jpg" alt="black camera" />
-        <p>Price: $300</p>
-      </section>
-      <section class="card">
-        <header>Tablet</header>
-        <img src="./assets/images/tablet.jpg" alt="tablet held in hands" />
-        <p>Price: $150</p>
-      </section>
-      <section class="card">
-        <header>Toilet Paper</header>
-        <img
-          src="./assets/images/toilet-paper.jpg"
-          alt="rolls of toilet paper in a basket"
-        />
-        <p>Price: $30</p>
-      </section>
-      <section class="card">
-        <header>Wooden Spoons</header>
-        <img
-          src="./assets/images/wooden-spoons.jpg"
-          alt="4 wooden spoons with different seasonings"
-        />
-        <p>Price: $10</p>
-      </section>
-    </main>
+    <aside class="benefits">
+      <div class="benefit-lead">
+          <h3>Lead Generation</h3>
+          <img src="./assets/images/lead-generation.png" />
+          <p>
+              Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+          </p>
+      </div>
+      <div class="benefit-brand">
+          <h3>Brand Awareness</h3>
+          <img src="./assets/images/brand-awareness.png" />
+          <p>
+              Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+          </p>
+      </div>
+      <div class="benefit-cost">
+          <h3>Cost Management</h3>
+          <img src="./assets/images/cost-management.png" />
+          <p>
+              As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+          </p>
+      </div>
+    </aside>
+    <footer class="footer">
+      <h2>Made with ❤️️ by Horiseon</h2>
+      <p>
+        &copy; 2019 Horiseon Social Solution Services, Inc.
+     </p>
+    </footer>
   </body>
 </html>
