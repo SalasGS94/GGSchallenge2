@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: #d9dcd6;
 }
 
 .header {
@@ -48,162 +47,83 @@ a {
 
 p {
   font-size: 16px;
+  width:50%;
 }
 
-.hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
 
 .content {
-  width: 75%;
-  display: inline-block;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
 }
 
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #2589bd;
-}
-
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
 .About-Me {
+  display: flex;
+  width: 100%;
   margin-bottom: 20px;
-  padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  color: blue;
 }
 
 .Work {
+  display: flex;
+  width: 100%;
   margin-bottom: 20px;
-  padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  color: blue;
 }
 
 .Contact-Me {
+  display: flex;
+  width: 100%;
   margin-bottom: 20px;
-  padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
+  color: blue;
 }
 
 .Resume {
+  display: flex;
+  width: 100%;
   margin-bottom: 20px;
-  padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.About-Me img {
-  max-height: 200px;
-}
-
-.Work img {
-  max-height: 200px;
-}
-
-.Contact-Me img {
-  max-height: 200px;
-}
-
-.Resume img {
-  max-height: 200px;
+  color: blue;
 }
 
 .About-Me h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+  border: 5px blue;
+  width: 30%;
+  border-style: none solid none none;
+  font-size: 50px;
+  text-align: right;
 }
 
 .Work h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+  width: 30%;
+  border: 5px blue;
+  border-style: none solid none none;
+  font-size: 50px;
+  text-align: right;
 }
 
 .Contact-Me h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+  width: 30%;
+  border: 5px blue;
+  border-style: none solid none none;
+  font-size: 50px;
+  text-align: right;
 }
 
 .Resume h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+  width: 30%;
+  border: 5px blue;
+  border-style: none solid none none;
+  font-size: 50px;
+  text-align: right;
 }
 
 .footer {
